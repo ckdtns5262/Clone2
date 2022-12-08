@@ -67,7 +67,7 @@ const Trending = () => {
     {/*Songs*/}
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4'>
     {songs.map((song)=>
-      <Song title={song.title} singer={song.singer} cover={song.cover}/>
+      <Song title={song.title} singer={song.singer} cover={song.cover} key={song.title}/>
     )}
       </div>
     </div>

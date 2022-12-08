@@ -29,7 +29,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='bg-red-500 py-1.5 px-2.5 rounded-[0.5rem]'>
-                <button className='text-white'>Log In</button>
+                <button className='text-white' >Log In</button>
             </div>
            
         </div>
